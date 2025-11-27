@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Новогодний кроссворд</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f8ff;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      color: #d40000;
+    }
+    .crossword {
+      display: inline-block;
+      margin: 20px auto;
+      border: 2px solid #000;
+    }
+    .crossword table {
+      border-collapse: collapse;
+    }
+    .cell {
+      width: 30px;
+      height: 30px;
+      border: 1px solid #000;
+      text-align: center;
+      vertical-align: middle;
+      font-weight: bold;
+      font-size: 16px;
+      background: #fff;
+    }
+    .black {
+      background: #000;
+    }
+    .word-list {
+      margin-top: 20px;
+      text-align: left;
+      display: inline-block;
+    }
+    .word-list h2 {
+      color: #006400;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎄 Новогодний кроссворд 🎁</h1>
+
+  <div class="crossword">
+    <table>
+      <!-- Генерация 12x12 сетки -->
+      <!-- Заполним вручную по задумке -->
+      <tr>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td class="cell">С</td> <!-- СНЕГОВИК верт. -->
+        <td class="black"></td>
+        <td class="cell">С</td>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td class="black"></td>
+      </tr>
+      <tr>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td class="cell">Ё</td> <!-- ЁЛКА гор. + ДЕДМОРОЗ верт. -->
+        <td class="cell">Л</td>
+        <td class="cell">Н</td>
+        <td class="cell">Е</td>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td class="black"></td>
+      </tr>
+      <tr>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td class="cell">Д</td> <!-- ДЕДМОРОЗ -->
+        <td class="black"></td>
+        <td class="cell">Е</td>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td class="black"></td>
+      </tr>
+      <tr>
+        <td class="black"></td>
+        <td class="cell">Н</td> <!-- НОВЫЙГОД -->
+        <td class="cell">О</td>
+        <td class="cell">М</td> <!-- МЁДВЕЖОН -->
+        <td class="cell">М</td>
+        <td class="cell">П</td> <!-- ПОДАРОК -->
+        <td class="cell">Г</td>
+        <td class="cell">О</td>
+        <td class="cell">Д</td> <!-- ОЛЕНЬ -->
+        <td class="black"></td>
+        <td class="black"></td>
+        <td class="black"></td>
+      </tr>
+      <tr>
+        <td class="black"></td>
+        <td class="cell">В</td>
+        <td class="cell">Ы</td>
+        <td class="cell">Ё</td>
+        <td class="cell">О</td>
+        <td class="cell">О</td>
+        <td class="cell">О</td>
+        <td class="cell">Р</td>
+        <td class="cell">Л</td>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td class="black"></td>
+      </tr>
+      <tr>
+        <td class="cell">Х</td> <!-- ХЛОПУШКА -->
+        <td class="cell">О</td>
+        <td class="cell">Л</td>
+        <td class="cell">Д</td>
+        <td class="cell">Р</td>
+        <td class="cell">Р</td>
+        <td class="cell">В</td>
+        <td class="cell">О</td>
+        <td class="cell">Е</td>
+        <td class="cell">К</td>
+        <td class="black"></td>
+        <td class="black"></td>
+      </tr>
+      <tr>
+        <td class="cell">Л</td>
+        <td class="cell">Й</td>
+        <td class="cell">П</td>
+        <td class="cell">В</td>
+        <td class="cell">О</td>
+        <td class="cell">А</td>
+        <td class="cell">И</td>
+        <td class="cell">К</td>
+        <td class="cell">Н</td>
+        <td class="cell">А</td>
+        <td class="black"></td>
+        <td class="black"></td>
+      </tr>
+      <tr>
+        <td class="cell">О</td>
+        <td class="cell">Г</td>
+        <td class="cell">У</td>
+        <td class="cell">Е</td>
+        <td class="cell">З</td>
+        <td class="cell">Р</td>
+        <td class="cell">К</td>
+        <td class="black"></td>
+        <td class="cell">Ь</td>
+        <td class="cell">Ш</td>
+        <td class="black"></td>
+        <td class="black"></td>
+      </tr>
+      <tr>
+        <td class="cell">П</td>
+        <td class="cell">О</td>
+        <td class="cell">Ш</td>
+        <td class="cell">Ж</td>
+        <td class="cell"></td>
+        <td class="cell">О</td>
+        <td class="cell"></td>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td class="cell">К</td>
+        <td class="black"></td>
+        <td class="black"></td>
+      </tr>
+      <tr>
+        <td class="black"></td>
+        <td class="cell">Д</td>
+        <td class="black"></td>
+        <td class="cell">О</td>
+        <td class="black"></td>
+        <td class="cell">С</td> <!-- САНИ -->
+        <td class="cell">А</td>
+        <td class="cell">Н</td>
+        <td class="cell">И</td>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td class="black"></td>
+      </tr>
+      <tr>
+        <td class="black"></td>
+        <td class="cell">Г</td>
+        <td class="black"></td>
+        <td class="cell">Н</td>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td class="black"></td>
+      </tr>
+      <tr>
+        <td class="black"></td>
+        <td class="cell">О</td>
+        <td class="black"></td>
+        <td class="cell"></td>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td class="black"></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="word-list">
+    <h2>Слова в кроссворде:</h2>
+    <ol>
+      <li>ЁЛКА</li>
+      <li>ДЕДМОРОЗ</li>
+      <li>СНЕГОВИК</li>
+      <li>ПОДАРОК</li>
+      <li>ХЛОПУШКА</li>
+      <li>МЁДВЕЖОН</li>
+      <li>МАНДАРИН</li>
+      <li>САНИ</li>
+      <li>ОЛЕНЬ</li>
+      <li>НОВЫЙГОД</li>
+    </ol>
+  </div>
+</body>
+</html>
