@@ -1,7 +1,4 @@
 body {
-  background-color: #121212; /* тёмно-серый фон */
-  color: #e0e0e0;           /* светлый текст */
-}
-a {
-  color: #4da6ff;           /* голубые ссылки */
+  background-color: #6a0dad; /* Фиолетовый */
+  color: #ffeb3b;           /* Жёлтый */
 }
