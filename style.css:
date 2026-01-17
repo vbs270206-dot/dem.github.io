@@ -1,5 +1,10 @@
 body{
-	background-color: #d2b48c;
+background-color: #121212; /* тёмно-серый фон */
+  color: #e0e0e0;           /* светлый текст */
+}
+a {
+  color: #4da6ff;           /* голубые ссылки */
+}
 	margin-left: 20%;
 	margin-right: 20%;
 	border: 2px dotted black;
