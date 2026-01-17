@@ -1,7 +1,13 @@
-body{
-background-color: #121212; /* тёмно-серый фон */
-  color: #e0e0e0;           /* светлый текст */
+:root {
+  --bg-color: #1e1e1e;
+  --text-color: #f0f0f0;
+  --link-color: #64b5f6;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
 a {
-  color: #4da6ff;           /* голубые ссылки */
+  color: var(--link-color);
 }
