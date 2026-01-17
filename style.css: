@@ -5,9 +5,3 @@ background-color: #121212; /* тёмно-серый фон */
 a {
   color: #4da6ff;           /* голубые ссылки */
 }
-	margin-left: 20%;
-	margin-right: 20%;
-	border: 2px dotted black;
-	padding: 10px 10px 10px 10px;
-	font-family: sans serif;
-    }
