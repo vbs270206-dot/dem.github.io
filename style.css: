@@ -1,6 +1,9 @@
 @font-face {
 font-family: "Pudelinka";
-scr: url("Fonts
+scr: url("Fonts/pudelinka.ttf") format("truetype");
+font-weight: normal; 
+font-style: normal;
+}
 body {
       background-color: #007bff; 
       color: white;            
@@ -8,3 +11,12 @@ body {
       padding: 20px;
       font-family: Arial, sans-serif;
     }
+
+blockquote.q {
+color: #D4AF37;
+border-left: 4px solid #880000; 
+font-style: italic;
+}
+p.zz {
+font-family: "Pudelinka";
+}
